@@ -1,0 +1,5 @@
+name = input()
+# f = open('prices.txt', 'r', encoding='utf-8')
+f = open(name, 'r', encoding='utf-8')
+content = f.readlines()
+print(len(content))
